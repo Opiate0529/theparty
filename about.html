@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=320,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>庆祝建党99周年</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="SpryAssets/lb.css">
+<script src="SpryAssets/lb.js"></script>
+
+<style type="text/css">
+body{ width:950px; max-width: 96%; margin:0 auto; padding:0; background:#000; border:#686868 2px solid; color:#686868; font-size:14px; font-family:"黑体";line-height:28px; }
+#father{ width:100%; padding:0; background:#fff;}
+#clearfix{ clear:both;}
+#top_banner{ display:block; float:left; width:100%; border-bottom:#fff 1px solid;}
+#top_banner img{ width:100%;}
+#btm_banner{ display:block; float:left; width:100%; height:150px; border-bottom:#fff 1px solid;}
+#btm_banner img{ width:300px; height:150px;}
+#topnav{ display:block; float:left; width:100%; height:35px; line-height:35px; margin:0; background:#c00; border:#ccc 1px solid; border-left:none; border-right:none; animation: myfirst 5s;
+-moz-animation: myfirst 5s;	/* Firefox */
+-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+-o-animation: myfirst 5s;}
+#topnav li{ float:left; width:33%; text-align:center; margin:0; padding:0; list-style:none;}
+#topnav li a{ color:#fff; text-shadow:0 0 2px #999999; text-decoration:none; font-weight:bolder;}
+#topnav li:hover{ background:#FFFF66}
+#topnav li a:hover{ color:#fff;}
+#topnav li a:visited{ color:#fff;}
+
+@keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
+#first_con{ float:left; width:100%; padding:15px 0; position:relative; background:url(images/bg.png) no-repeat center; background-size:cover;}
+#register{ width:90%; margin:0 5%; text-indent:2em;}
+#bottom{ display:block; float:left; width:100%; text-align:center; height:50px; line-height:50px; border-top:2px solid #ccc; margin-top:15px;}
+table{ width:100%; color:#8C8D53; color:black;}
+caption{ font-size:36px; text-align:center; margin:5% 0;}
+@media screen and (max-width: 600px) {
+#con_left{ display:block; float:left; width:100%; }
+#con_right{ display:block; float:left; width:100%;}
+#second_left{ display:block; float:left; width:100%; margin:1%; margin-top:15px;}
+#second_middle{ display:block; float:left; width:100%; margin:15px 0; margin-top:15px;}
+#second_right{ display:block; float:right; width:100%; margin:0 1%; margin-top:15px;}
+#second_middle ul li{ float:left; width:100%; margin:0; margin:0; padding:15px 5px; list-style:none; line-height:30px; }
+#second_middle ul li img{ display:block; float:left; width:100%; height:100%;}
+#second_middle ul li span{ display:block; float:left; width:100%; line-height:25px; background:#ECACC4; color:#fff; text-align:center;}
+#topnav li{ float:left; width:14%; text-align:center; margin:0 1%; padding:0; list-style:none;}
+#topnav{ padding:0;}
+}
+</style><!--[if lt IE 9]>
+
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+
+<script>
+window.onload = function () {
+  // 轮播选项
+  const options = {
+	id: 'lb-1',              // 轮播盒ID
+	speed: 600,              // 轮播速度(ms)
+	delay: 3000,             // 轮播延迟(ms)
+	direction: 'left',       // 图片滑动方向
+	moniterKeyEvent: true,   // 是否监听键盘事件
+	moniterTouchEvent: true  // 是否监听屏幕滑动事件
+  }
+  const lb = new Lb(options);
+  lb.start();
+}
+</script>
+
+</head>
+
+<body>
+<div id="father">
+	<div id="top_banner"><img src="images/img11.png" class="img-responsive" /></div>
+	<ul id="topnav">
+		<li><a href="index.html">首页</a></li>
+		<li><a href="about.html">作品说明</a></li>
+		<li><a href="message.html">注册/登录</a></li>
+	</ul>
+	<div id="clearfix"></div>
+	<div id="first_con">
+		<div id="register">
+				<table border="0" cellpadding="0" cellspacing="0" height="300">
+					<caption>作品说明</caption>
+					<tr>
+						<td><p>
+						  页面特点：页面使用bootstrap框架，当屏幕小于600px的时候单独设置css，使其适应手机端。导航栏使用CSS3 @keyframes 规则设置动画，使其背景变色。焦点图使用js实现3个广告图轮播。页面底部设置图片滚动效果。</p><p>课程心得：通过本门课学习了bootstrap框架，对框架建立网页有一定了解，对css有更深的运用，利用js实现焦点图轮播。想学好这门课就要对css和html、bootstrap融会贯通。</p></td></tr>
+				</table>
+		</div>
+	</div>
+	<div id="clearfix"></div>
+	<div id="bottom">版权所有：201905730202</div>		
+	<div id="clearfix"></div>
+</div>
+</body>
+</html>
